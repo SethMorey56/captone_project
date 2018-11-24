@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.Jumbotron {
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/19/23/46/panorama-1993645_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.display-1 {
+  color: whitesmoke;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.custom-nav h2 {
+  display: inline;
+  padding-right: 1em;
+}
+
+/* counselors page */
+
+.container {
+  display: inline;
+}
+
+img {
+  max-width: 50vh;
+  max-height: 50vh;
+  padding-left: 5em;
+}
+
+.counselor-border {
+  border: solid 1px;
+}
