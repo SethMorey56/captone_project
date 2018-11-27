@@ -18,6 +18,12 @@
 .custom-nav h2 {
   display: inline;
   padding-right: 1em;
+  color: whitesmoke;
+}
+
+.custom-nav :hover {
+  color: blue;
+  text-decoration: none;
 }
 
 /* counselors page */
