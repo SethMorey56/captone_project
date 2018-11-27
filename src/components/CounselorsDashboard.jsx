@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CounselorsMessages from './CounselorsMessages';
 import CounselorsClients from './CounselorsClients';
 import ReactStrapNav from './ReactStrapNav';
+import CounsleorsIntakeView from './CounselorsIntakeView';
 
 export default class CounselorsDashboard extends Component {
     
@@ -11,6 +12,7 @@ export default class CounselorsDashboard extends Component {
                 <ReactStrapNav/>
                 <CounselorsMessages/>
                 <CounselorsClients/>
+                <CounsleorsIntakeView/>
             </div>
         )
     }
