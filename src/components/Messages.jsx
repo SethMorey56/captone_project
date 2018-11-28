@@ -33,14 +33,11 @@ export default class Messages extends Component {
 
         return (
             <div className="messages">
-                <h1>Messages Form</h1>
-                {/* <Alert>
-                    This is where we will render messages.
-                </Alert> */}
+                <h1>Intake Notes</h1>
 
-                <form onSubmit={this.handleSubmit}>
-                    <Input name="message" type="test" onChange={this.updateFormData}></Input>
-                    <Button className="intake-button" type={'submit'}>Send</Button>
+                <form className="messages-input" onSubmit={this.handleSubmit}>
+                    <Input className="message-input-field" placeholder="Write a New Note Here" name="message" type="test" onChange={this.updateFormData}></Input>
+                    <button type="button" class="btn btn-primary" type={'submit'}>Create New Note</button>
                 </form>
                
             </div>

@@ -27,7 +27,10 @@ export default class CounselorsDashboard extends Component {
         return (
             <div>
                 <ReactStrapNav/>
-                {intakes}
+                <h1 className="new-clients">New Clients</h1>
+                <div className="intake-styling">
+                    <div>{intakes}</div>
+                </div>
             </div>
         )
     }

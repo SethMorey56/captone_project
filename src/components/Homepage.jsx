@@ -4,7 +4,7 @@ import MediaComp from './MediaComp';
 
 const Homepage = () => {
     return (
-        <div>
+        <div className="Homepage">
             <Header/>
             <MediaComp/>
         </div>

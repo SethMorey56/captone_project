@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 .Jumbotron {
@@ -7,23 +8,63 @@
   background-image: url('https://cdn.pixabay.com/photo/2017/01/19/23/46/panorama-1993645_960_720.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-align: center;
+}
+
+#jumbotron {
+  margin-bottom: 0;
 }
 
 .display-1 {
-  color: whitesmoke;
-  padding-left: 15%;
+  color: #2E3140;
+  /* padding-left: 15%; */
   padding-top: 5%;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
-.custom-nav h2 {
+.custom-nav h3 {
   display: inline;
   padding-right: 1em;
   color: whitesmoke;
+  font-size: 2.5em;
 }
 
 .custom-nav :hover {
-  color: blue;
+  color: #2E3140;
   text-decoration: none;
+}
+
+.Media {
+  height: 100vh;
+  padding-top: 2.5%;
+}
+
+iframe {
+  text-align: center;
+  height: 50vh;
+  width: 100vh;
+}
+
+#media-content {
+  text-align: center;
+  height: 50vh;
+}
+
+#media-content p {
+  font-size: 2em;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.Media-Comp-h1 h1 {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.Homepage {
+  background-color: #FCFAFA;
 }
 
 /* counselors page */
@@ -40,4 +81,72 @@ img {
 
 .counselor-border {
   border: solid 1px;
+}
+
+.intake-styling {
+  text-align: center;
+  width: 80%;
+  padding-left: 20%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.intake-styling div {
+  font-size: 2em;
+}
+
+.new-clients {
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.Client {
+  text-align: center;
+}
+
+.NavLink {
+  font-size: 1.5em;
+}
+
+#login-text {
+  font-size: 1.5em;
+}
+
+.login-form {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: black solid 1px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.Client p {
+  padding-bottom: 2.5%;
+}
+
+.Client h1 {
+  padding: 1%;
+  color: rgb(23, 51, 190);
+}
+
+.messages h1 {
+  border-bottom: black solid 1px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.message-input-field {
+  text-align: center;
+}
+
+button {
+  padding: 15%;
+}
+
+.fix-this {
+  font-size: 1.5em;
 }

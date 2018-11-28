@@ -22,11 +22,11 @@ export default class CounselorsCards extends Component {
                 <Container key={counselors.id}>
                     <Row className="counselor-border">
                         <Col md="3">
-                            <img src="https://cdn.pixabay.com/photo/2018/11/16/07/42/giraffe-3818903_960_720.jpg" alt="Girl in a jacket"/>
+                            <img style={{ maxHeight:"300px", maxWidth:"300px" }} src={counselors.img} alt="Girl in a jacket"/>
                         </Col>
                         <Col md="9">
-                            <h2>{counselors.name}</h2>
-                            <p>This is someones description and speciality.</p>
+                            <h4 className="fix-this">{counselors.name}</h4>
+                            <p className="fix-this">{counselors.about}</p>
                         </Col>
                     </Row>
                 </Container>

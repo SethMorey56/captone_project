@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Messages from './Messages';
 import MessagesRender from './MessagesRender';
+import ReactStrapNav from './ReactStrapNav';
 
 export default class Client extends Component {
     state = {
@@ -33,8 +34,10 @@ export default class Client extends Component {
         }else
         return (
             <div className="Client">
-                <h1>New Intake For</h1>
-                <h1>{this.state.data.name}</h1>
+
+            <ReactStrapNav/>
+                <h1>{this.state.data.name}'s Intake Form </h1>
+
                 <h2>Email</h2>
                 <p>{this.state.data.email}</p>
                 <h2>Phone</h2>

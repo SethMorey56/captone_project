@@ -25,19 +25,19 @@ export default class ReactStrapNav extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="primary" dark expand="md">
           <NavbarBrand href="/home">CounselorCare</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/Intake">Intake</NavLink>
+                <NavLink className="NavLink" href="/Intake">Intake</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/UsersLogin">Users</NavLink>
+                <NavLink className="NavLink" href="/UsersLogin">Users</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/Counselors">Counselors</NavLink>
+                <NavLink className="NavLink" href="/Counselors">Counselors</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

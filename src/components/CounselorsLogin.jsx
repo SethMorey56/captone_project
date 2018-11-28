@@ -10,11 +10,11 @@ const CounselorsLogin = () => {
             <div className="login-form">
                 <Form/>
                 <FormGroup>
-                <Label for="exampleEmail">Email</Label>
+                <h1 id="login-text" for="exampleEmail">Email</h1>
                 <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
                 </FormGroup>
                 <FormGroup>
-                <Label for="examplePassword">Password</Label>
+                <Label id="login-text" for="examplePassword">Password</Label>
                 <Input type="password" name="password" id="examplePassword" placeholder="password placeholder" />
                 </FormGroup>
                 <Button><Link to={'./CounselorsDashboard'}>Enter</Link></Button>
