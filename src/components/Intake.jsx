@@ -38,6 +38,13 @@ export default class Intake extends Component {
                 <p>This questionairre is designed to make your search for help easy and simple. Tell us what's going on, and we will do our best to help you.</p>
                 <FormGroup>
                     <form onSubmit={this.handleSubmit}>
+                            <Label>Name</Label>
+                            <Input name="name" type="text" onChange={this.updateFormData}/>
+                            <Label>Email</Label>
+                            <Input name="email" type="text" onChange={this.updateFormData}/>
+                            <Label>Phone</Label>
+                            <Input name="phone" type="text" onChange={this.updateFormData}/>
+
                             <Label>Question 1</Label>
                             <Input name="questionOne" type="text" onChange={this.updateFormData}/>
                             <Label>Question 2</Label>

@@ -19,7 +19,7 @@ export default class Messages extends Component {
         axios.post('http://localhost:8080/messages', {
             ...this.state.messagesSent
         })
-        .then(console.log("Submitted"))
+        .then(this.props.fetchNotes);
     }
 
     updateFormData(e) {
@@ -33,10 +33,10 @@ export default class Messages extends Component {
 
         return (
             <div className="messages">
-                <h1>Messages</h1>
-                <Alert>
+                <h1>Messages Form</h1>
+                {/* <Alert>
                     This is where we will render messages.
-                </Alert>
+                </Alert> */}
 
                 <form onSubmit={this.handleSubmit}>
                     <Input name="message" type="test" onChange={this.updateFormData}></Input>

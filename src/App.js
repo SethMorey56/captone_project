@@ -9,6 +9,7 @@ import About from './components/About';
 import CounselorsLogin from './components/CounselorsLogin';
 import Users from './components/Users';
 import CounselorsDashboard from './components/CounselorsDashboard';
+import Client from './components/Client';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
         <Route path='/counselorsLogin' component={CounselorsLogin}/>
         <Route path='/users' component={Users}/>
         <Route path='/counselorsDashboard' component={CounselorsDashboard}/>
+        <Route path='/client/:id' component={Client}/>
       </React.Fragment>
       </Router>
     );
